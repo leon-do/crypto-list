@@ -4,12 +4,14 @@ const coins =
     ETH: {
         name: 'Ethereum',
         abbreviation: 'ETH',
-        summary: `A decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.`
+        summary: `A decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.`,
+        short: `Write your own programs on the blockchain`
     },
     BTC: {
         name: 'Bitcoin',
         abbreviation: 'BTC',
-        summary: `Uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part`
+        summary: `Uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part`,
+        short: `The original`
     },
     STR: {
         name: 'Stellar',
@@ -29,8 +31,8 @@ const coins =
     DASH: {
         name: 'Dash',
         abbreviation: 'DASH',
-        summary: `A next-generation digital currency based on the Bitcoin software. Dash is used to make instant, private payments online or in-store using our secure open-source platform hosted by thousands of users around the world.
-`
+        summary: `A next-generation digital currency based on the Bitcoin software. Dash is used to make instant, private payments online or in-store using our secure open-source platform hosted by thousands of users around the world.`
+    },
     BTS: {
         name: 'BitShares',
         abbreviation: 'BTS',
@@ -110,7 +112,7 @@ const coins =
     LTC: {
         name: 'Litecoin',
         abbreviation: 'LTC',
-        summary: `Litecoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Litecoin is a proven medium of commerce complementary to Bitcoin.`
+        summary: `Litecoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Litecoin is a proven medium of commerce complementary to Bitcoin.`,
         short: `It's like Bitcoin but lighter`
     },
     BCN: {
@@ -126,7 +128,7 @@ const coins =
     BLK: {
         name: 'BlackCoin',
         abbreviation: 'BLK',
-        summary: `BlackCoin is a peer-to-peer digital currency with a distributed, decentralized public ledger, which unlike those of traditional banks is viewable and easily audited by anyone. It is first coin to go full proof of stake.`
+        summary: `BlackCoin is a peer-to-peer digital currency with a distributed, decentralized public ledger, which unlike those of traditional banks is viewable and easily audited by anyone. It is first coin to go full proof of stake.`,
         short: `Bitcoin + Proof of Stake`
     },
     EOS: {
@@ -160,6 +162,3 @@ const coins =
         summary: `A platform created to help run your company on Ethereum. Cap table, governance, fundraising, payroll, accounting, bylaws etc.`
     },
 }
-
-
-console.log(coins)
